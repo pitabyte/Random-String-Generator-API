@@ -41,6 +41,6 @@ body example in JSON format:
 
 http://localhost:8080/api/input - Returns currently running requests
 
-http://localhost:8080/api/input/{inputId} - Returns requested strings, if request is completed
+http://localhost:8080/api/input/{inputId} - Returns requested strings, if the request is completed
 
 
