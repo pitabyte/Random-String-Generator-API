@@ -18,9 +18,9 @@ $ java -jar .\task-0.0.1-SNAPSHOT.jar
 $ mvn clean test
 ```
 
-# Endpoints
+## Endpoints
 
-## POST:
+### POST:
 
 http://localhost:8080/api/input
 
@@ -35,7 +35,7 @@ JSON example:
 }
 ```
 
-## GET:
+### GET:
 
 http://localhost:8080/api/input - Returns currently running requests
 
