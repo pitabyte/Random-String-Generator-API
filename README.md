@@ -17,13 +17,16 @@ $ mvn clean test
 # Endpoints
 
 ## GET:
+
 http://localhost:8080/api/input - Returns currently running requests
 http://localhost:8080/api/input/{inputId} - Returns requested strings, if request is completed
 
 ## Post:
+
 http://localhost:8080/api/input
 
 JSON example:
+
 {
     "minLength": 1,
     "maxLength": 5,
