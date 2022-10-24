@@ -14,7 +14,7 @@ $ mvn spring-boot:run
 $ cd target
 $ java -jar .\task-0.0.1-SNAPSHOT.jar
 
-### To run tests:
+# To run tests:
 $ mvn clean test
 ```
 
