@@ -169,14 +169,16 @@ public class Input {
 
     public ArrayList<String> randomUniqueStringsFromTop() {
         ArrayList<String> allStrings = allStrings();
+        ArrayList<String> outputStrings = new ArrayList<>();
         String singleString = "";
         int i = 0;
-        while (i < (maxNumber() - this.numberOfStrings)) {
+        while (i < (this.numberOfStrings)) {
             int randomInt = ThreadLocalRandom.current().nextInt(0, allStrings.size());
+            outputStrings.add(allStrings.get(randomInt));
             allStrings.remove(randomInt);
             i++;
         }
-        return allStrings;
+        return outputStrings;
     }
 
     public String randomString() {
