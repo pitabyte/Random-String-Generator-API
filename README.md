@@ -2,7 +2,7 @@
 
 ## How to run
 
-To connect to your local Postgres database you may need to modify 'application.properties' file with your login and password.
+To connect to your local Postgres database you may need to modify 'application.properties' file (task/src/main/resources) with your login and password.
 
 ## Open command prompt and execute:
 
