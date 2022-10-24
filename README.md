@@ -25,6 +25,7 @@ http://localhost:8080/api/input/{inputId} - Returns requested strings, if reques
 
 http://localhost:8080/api/input
 
+```
 JSON example:
 
 {
@@ -33,3 +34,4 @@ JSON example:
     "str": "abcdef",
     "numberOfStrings": 10
 }
+```
