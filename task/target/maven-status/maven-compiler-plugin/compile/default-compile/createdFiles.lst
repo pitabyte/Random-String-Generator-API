@@ -1,0 +1,5 @@
+com\example\task\input\InputController.class
+com\example\task\input\InputService.class
+com\example\task\TaskApplication.class
+com\example\task\input\InputRepository.class
+com\example\task\input\Input.class
