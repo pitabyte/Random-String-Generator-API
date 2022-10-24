@@ -172,7 +172,7 @@ public class Input {
         String singleString = "";
         int i = 0;
         while (i < (maxNumber() - this.numberOfStrings)) {
-            int randomInt = ThreadLocalRandom.current().nextInt(0, allStrings.size() - 1);
+            int randomInt = ThreadLocalRandom.current().nextInt(0, allStrings.size());
             allStrings.remove(randomInt);
             i++;
         }
