@@ -10,7 +10,7 @@ To connect to your local Postgres database you may need to modify 'application.p
 # To run an app:
 $ mvn spring-boot:run
 
-# or navigate to 'target' folder and run .jar file
+# or from root directory navigate to 'target' folder and run .jar file
 $ cd target
 $ java -jar .\task-0.0.1-SNAPSHOT.jar
 
