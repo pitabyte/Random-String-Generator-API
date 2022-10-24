@@ -24,7 +24,7 @@ $ mvn clean test
 
 http://localhost:8080/api/input
 
-JSON example:
+body example in JSON format:
 ```
 {
     "minLength": 1,
