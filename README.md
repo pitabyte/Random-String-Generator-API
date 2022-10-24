@@ -19,9 +19,10 @@ $ mvn clean test
 ## GET:
 
 http://localhost:8080/api/input - Returns currently running requests
+
 http://localhost:8080/api/input/{inputId} - Returns requested strings, if request is completed
 
-## Post:
+## POST:
 
 http://localhost:8080/api/input
 
