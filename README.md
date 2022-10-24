@@ -4,7 +4,7 @@
 
 To connect to your local Postgres database you may need to modify 'application.properties' file (task/src/main/resources) with your login and password.
 
-### Open command prompt and execute:
+### Open command prompt, navigate to project's root directory (task) and execute:
 
 ```bash
 # To run an app:
