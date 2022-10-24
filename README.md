@@ -16,12 +16,6 @@ $ mvn clean test
 
 # Endpoints
 
-## GET:
-
-http://localhost:8080/api/input - Returns currently running requests
-
-http://localhost:8080/api/input/{inputId} - Returns requested strings, if request is completed
-
 ## POST:
 
 http://localhost:8080/api/input
@@ -36,3 +30,11 @@ JSON example:
     "numberOfStrings": 10
 }
 ```
+
+## GET:
+
+http://localhost:8080/api/input - Returns currently running requests
+
+http://localhost:8080/api/input/{inputId} - Returns requested strings, if request is completed
+
+
