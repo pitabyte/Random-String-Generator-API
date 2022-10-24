@@ -2,7 +2,7 @@
 
 ## How to run
 
-To connect to your local Postgres database you may need to modify application.properties file with your login and password.
+To connect to your local Postgres database you may need to modify 'application.properties' file with your login and password.
 
 ## Open command prompt and execute:
 
@@ -10,7 +10,7 @@ To connect to your local Postgres database you may need to modify application.pr
 # To run an app:
 $ mvn spring-boot:run
 
-# or navigate to target folder and run .jar file
+# or navigate to 'target' folder and run .jar file
 $ cd target
 $ java -jar .\task-0.0.1-SNAPSHOT.jar
 
