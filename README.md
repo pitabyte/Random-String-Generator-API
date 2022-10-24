@@ -25,9 +25,9 @@ http://localhost:8080/api/input/{inputId} - Returns requested strings, if reques
 
 http://localhost:8080/api/input
 
-```
-JSON example:
 
+JSON example:
+```
 {
     "minLength": 1,
     "maxLength": 5,
