@@ -1,4 +1,4 @@
-# Edrone-Recruitment-Task
+# String Generator API
 
 ## How to run
 
