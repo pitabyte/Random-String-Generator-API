@@ -1,5 +1,9 @@
 # String Generator API
 
+## About
+
+Returns random strings based on parameters like 'str' (characters to create string from), maxLength, minLength and numberOfStrings. Parameters are sent to server in JSON format.
+
 ## How to run
 
 To connect to your local Postgres database you may need to modify 'application.properties' file (task/src/main/resources) with your login and password.
